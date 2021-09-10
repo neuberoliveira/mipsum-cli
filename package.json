@@ -1,0 +1,35 @@
+{
+  "name": "mipsum-cli",
+  "version": "1.0.0",
+  "description": "CLI for mipsum",
+  "main": "./dist/index.js",
+  "author": "Neuber Oliveira",
+  "license": "ISC",
+  "homepage": "https://github.com/neuberoliveira/mipsum-cli#readme",
+  "bugs": {
+    "url": "https://github.com/neuberoliveira/mipsum-cli/issues"
+  },
+  "keywords": [
+    "mipsum",
+    "lorem",
+    "ipsum",
+    "generator"
+  ],
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js",
+    "watch": "rollup --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuberoliveira/mipsum-cli.git"
+  },
+  "dependencies": {
+    "minimist": "1.2.5",
+    "mipsum": "2.4.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "20.0.0",
+    "@rollup/plugin-node-resolve": "13.0.4",
+    "rollup": "2.56.3"
+  }
+}
