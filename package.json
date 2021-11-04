@@ -15,6 +15,9 @@
     "ipsum",
     "generator"
   ],
+  "bin" : { 
+    "mipsum": "./dist/index.js" 
+  },
   "scripts": {
     "build": "rollup --config ./rollup.config.js",
     "watch": "rollup --watch"
